@@ -8,7 +8,7 @@ const Nav = () => {
             <div className="nav_content">
               <div className="nav_wrapper">
                 <h3>
-                  Welcome,   <span>{localStorage.getItem("name").toLocaleUpperCase()}</span> 👋
+                  Welcome,  <span>{localStorage.getItem("name")}</span> 👋
                 </h3>
                 <p>Discover whatever you need</p>
               </div>

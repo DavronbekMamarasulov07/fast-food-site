@@ -6,7 +6,8 @@ const Login = () => {
     e.preventDefault()
     console.log(Login)
     const name = document.querySelector("#name").value
-    localStorage.setItem("name", name)
+    const newName = name.charAt(0).toUpperCase() + name.slice(1)
+    localStorage.setItem("name", newName)
 
 
     setTimeout(() => {
