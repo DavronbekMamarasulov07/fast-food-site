@@ -1,0 +1,9 @@
+.content_main{
+    display: flex;
+}
+
+.content_wrapper{
+    width: 100%;
+    flex: 1;
+    padding: 30px;
+}

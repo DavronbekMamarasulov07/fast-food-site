@@ -1,0 +1,123 @@
+.noodles{
+    font-size: 99px;
+    margin-top: 110px;
+}
+
+.noodles_card_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.noodles_card{
+    width: 100%;
+   border: 1px solid #fff;
+   background-color: #e9e9e952;
+   border-radius: 30px;
+   position: relative;  
+   padding: 125px 45px 60px 45px; 
+   
+}
+
+.noodles_card_img img{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.noodles_card_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.noodles_card_wrapper h3{
+    white-space: nowrap;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35.1px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #000000;
+}
+
+.noodles_card_wrapper p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #000;
+    width: 100%;
+    margin-bottom: 5px;
+    max-width: 80%;
+}
+
+.noodles_card_rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.noodles_card_rating_start{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.noodles_card_rating_start svg {
+    font-size: 22px;
+    color: #F3B61A;
+}
+
+.noodles_card_rating_start svg:last-child{
+    color: #FEF3D6;
+}
+
+.noodles_card_rating span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #f7b715;
+
+}
+
+.noodles_card_price{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35.1px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #000;
+}
+
+.noodles_card_btn{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: none;
+    background-color: #000000;
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.noodles_card_btn svg{
+    color: #fff;
+    font-size: 24px
+}
+
+
+
+  
