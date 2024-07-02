@@ -10,6 +10,7 @@ const Card_Select = () => {
   return (
     <div className="card_select_container">
       <ul className="card_select_list">
+        
         <li>
           <NavLink className="card_select_list_item_link" to="/home/card_select/noodles">
             <img src={noodles_img} alt="Noodles" />
